@@ -8,11 +8,11 @@ local Window = Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(550, 370),
     Acrylic = false,
-    Theme = "Amaranth",
+    Theme = "Plum",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Tap Fram", Icon = "xx" }),
+    Main = Window:AddTab({ Title = "Tap Fram", inf.Texture = "rbxassetid://16435032782" }),
     Setting = Window:AddTab({ Title = "Tap Setting", Icon = "xx" }),
     Stats = Window:AddTab({ Title = "Tap Stats", Icon = "xx" }),
     Player = Window:AddTab({ Title = "Tap Player", Icon = "xx" }),
@@ -4364,7 +4364,7 @@ ToggleAutoW:OnChanged(function(Value)
         end
         for r, v in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v:IsA("MeshPart") then
-                if v.MeshId == "rbxassetid://6745037796" then
+                if v.MeshId == "rbxassetid://16435032782" then
                     return v
                 end
             end
@@ -5605,7 +5605,7 @@ function InfAbility()
             inf.Rotation = NumberRange.new(0, 0)
             inf.Speed = NumberRange.new(30, 30)
             inf.SpreadAngle = Vector2.new(360, 360)
-            inf.Texture = "rbxassetid://243098098"
+            inf.Texture = "rbxassetid://16435032782"
             inf.VelotyInheritance = 0
             inf.ZOffset = 2
             inf.Transparency = NumberSequence.new(0)
@@ -7079,7 +7079,7 @@ Tabs.Misc:AddButton({
 	Title = "Rain Fruit",
 	Description = "VN: Mưa trái ác quỷ",
 	Callback = function()
-        for i, v in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+        for i, v in pairs(game:GetObjects("rbxassetid://16435032782")[1]:GetChildren()) do
             v.Parent = game.Workspace.Map
             v:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random(-50, 50), 100, math.random(-50, 50)))
             if v.Fruit:FindFirstChild("AnimationController") then
