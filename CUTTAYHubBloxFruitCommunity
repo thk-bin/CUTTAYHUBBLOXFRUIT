@@ -1,10 +1,10 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/thk-bin/CUTTAYHUBBLOXFRUIT/main/apkmainfireapkff"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "CUTTAY Hub-Blox Fruit",
-    SubTitle = "By binhackerlo | Community: BO LAC CUA TAY",
+    SubTitle = "By binhackerlo | Community: BO LAC CUA TAY", 
     TabWidth = 160,
     Size = UDim2.fromOffset(550, 370),
     Acrylic = false,
