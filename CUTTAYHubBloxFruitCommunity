@@ -4,11 +4,11 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "CUTTAY Hub-Blox Fruit",
-    SubTitle = "By Binhackerlo  |  Community: BO LAC CUA TAY",
+    SubTitle = "By binhackerlo | Community: BO LAC CUA TAY",
     TabWidth = 160,
-    Size = UDim2.fromOffset(450, 470),
+    Size = UDim2.fromOffset(550, 370),
     Acrylic = false,
-    Theme = "Violet",
+    Theme = "Mauve",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -7453,7 +7453,6 @@ end
 Fluent:Notify({
     Title = "CUTTAYHub-Blox Fruit",
     Content = "The script has loaded successfully!",
-    Content = "Discord server link: https://discord.gg/vvXegtQr"
     Durtion = 3
 })
 warn("CUTTAYHub Loading Completed!")
