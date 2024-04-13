@@ -8,11 +8,11 @@ local Window = Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(550, 370),
     Acrylic = false,
-    Theme = "Plum",
+    Theme = "Red",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Tap Fram", inf.Texture = "rbxassetid://16435032782" }),
+    Main = Window:AddTab({ Title = "Tap Fram", Icon = "xx" }),
     Setting = Window:AddTab({ Title = "Tap Setting", Icon = "xx" }),
     Stats = Window:AddTab({ Title = "Tap Stats", Icon = "xx" }),
     Player = Window:AddTab({ Title = "Tap Player", Icon = "xx" }),
