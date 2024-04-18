@@ -2,8 +2,8 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(0, 45, 255)
 _G.Dark = Color3.fromRGB(46, 56, 56)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "Tên Hub"
-_G.ThongBao = "Tên Hub"
+_G.TieuDe = "CutTay Hub-Blox Fruit"
+_G.ThongBao = "CutTay Hub-Blox Fruit"
 _G.ThongBaoChoose = "Cracj Blox Fruits Script"
 
 _G.Discord = "https://discord.gg/alchemyhub"
