@@ -6,7 +6,7 @@ local Light = game:GetService("Lighting")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
     Name = "CutTay Hub-Blox Fruit",
-    Content = "zero Loading.",
+    Content = "CutTay Hub Loading.",
     Image = "rbxassetid://16435032782",
     Time = 15
 })
@@ -14,11 +14,11 @@ game:GetService("ReplicatedStorage").Events.Respawn:FireServer()
 wait(4)
 OrionLib:MakeNotification({
     Name = "CutTay Hub",
-    Content = "Zero hub is Ready!",
+    Content = "CutTay Hub is Ready!",
     Image = "rbxassetid://16435032782",
     Time = 15
 })
-local Window = OrionLib:MakeWindow({Name = "CutTay [EVADE] hub ", HidePremium = false,IntroText = "CutTay Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "zero [EVADE] hub ", HidePremium = false,IntroText = "Zero Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
  
 --functions and shit
 getgenv().money = true
